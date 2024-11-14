@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <button id="botao" onclick="abrir()">Login/Cadastro</button>
+    </header>
+    <dialog id="modal" open="" >
+
+        <form action="" id="grid">
+     <div>Nome <input type="text" id="nome" oninput="salvar()"></div>
+     <div>Email <input type="email" id="email" oninput="salvar()"></div>
+     <div>Telefone <input type="tel" placeholder="(31)99999-9999" id="telefone"  oninput= "mascara_telefone()" maxlength="14"></div>
+     <div>CPF<input  id="CPF" class="required" type="text" name="CPF" placeholder="XXX.XXX.XXX-XX" minlength="14" maxlength="14" oninput="CpfValidate()"></div>
+     <div id="senhadiv">Senha <input type="password" oninput="salvar()" id="senha"></div>
+     <div><a href="segundoindex.html" id="enviar" onclick="janela()">Enviar</a></div>
+     
+    </form>
+   <button id="fechar" onclick="fechar()">Fechar</button>
+
+
+
+    </dialog>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 2em;
+}
+#display{
+    display: flex;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+#grid1{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-bottom: 20px;
+}
+#centro{
+    text-align: center;
+}
