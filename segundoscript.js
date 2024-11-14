@@ -16,3 +16,15 @@ addEventListener("DOMContentLoaded", () =>{
     document.getElementById("respostasenha").innerHTML = recebersenha
     
 })
+function limpa(){
+    document.getElementById("cpf").value = " "
+    document.getElementById("telefone").value = " "
+    document.getElementById("nome").value = " "
+    document.getElementById("email").value = " "
+    document.getElementById("senha").value = " "
+    document.getElementById("respostanome").innerHTML = " "  
+    document.getElementById("respostaemail").innerHTML = " " 
+    document.getElementById("respostatelefone").innerHTML = " " 
+    document.getElementById("respostaCPF").innerHTML =  " "  
+    document.getElementById("respostasenha").innerHTML = " "
+}

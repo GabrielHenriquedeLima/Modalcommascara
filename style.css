@@ -12,6 +12,7 @@ header{
     border-color: grey;
     height: 50px;
     width: 250px;
+    border: none;
 }
 #grid{
     display: grid;
